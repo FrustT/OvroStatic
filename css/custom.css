@@ -1,0 +1,29 @@
+﻿@media (max-width: 768px) {
+    [data-anchor="our-services"] .container {
+        margin-top: +50px;
+    }
+
+    [data-anchor="about"] .container {
+        margin-top: +50px;
+    }
+
+    [data-anchor="contact"] .container {
+        margin-top: +50px;
+    }
+
+    .row.text-center > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-12.col-xl-6.text-center img {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .col-12.col-xl-6 {
+        margin-bottom: 40px;
+    }
+    .navbar-scrolled .navbar-brand svg .cls-2 {
+        fill: #000;
+    }
+}
