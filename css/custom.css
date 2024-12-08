@@ -11,6 +11,11 @@
         margin-top: +50px;
     }
 
+    .company-card {
+        margin-bottom: 20px;
+        height: 250px; /* Reduce card height for smaller screens */
+    }
+
     .row.text-center > div {
         display: flex;
         flex-direction: column;
@@ -25,5 +30,17 @@
     }
     .navbar-scrolled .navbar-brand svg .cls-2 {
         fill: #000;
+    }
+    .text-light {
+        font-size: 14px; /* Smaller text for better fit */
+    }
+
+    .btn {
+        padding: 6px 15px; /* Smaller buttons for mobile */
+    }
+    .company-card img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover; /* Ensures the image scales nicely */
     }
 }
